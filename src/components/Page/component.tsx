@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
-import Gallery from '../Gallery/Gallery';
+import Header from '../Header/component';
+import Footer from '../Footer/component';
+import Gallery from '../Gallery/component';
 
 import './Page.css';
 

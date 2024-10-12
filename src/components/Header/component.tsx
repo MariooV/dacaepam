@@ -7,10 +7,10 @@ interface HeaderProps {
   header?: string;
 }
 
-const Header: React.FC<HeaderProps> = ({ header }) => {
+const Header: React.FC<HeaderProps> = ({ header = "Header Header" }) => {
   return (
     <header className="header">
-      <h1>{ header || "Header Header" }</h1>
+      <h1>{ header }</h1>
     </header>
   );
   

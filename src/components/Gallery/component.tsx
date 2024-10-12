@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PhotoCard from '../PhotoCard/PhotoCard';
+import PhotoCard from '../PhotoCard/component';
 import photos from '../PhotoCard/__mock__/index';
 
 import './Gallery.css';
@@ -12,9 +12,9 @@ const Gallery: React.FC = () => {
       {photos.length === 0 ? (
         <p>No photos available</p>
       ) : (
-        photos.map((photo) => (
+        photos.map((photo, id) => (
           <PhotoCard
-            key={ photo.id }
+            key={ id }
             location={ photo.location }
             imageUrl={ photo.imageUrl }
             description={ photo.description }

@@ -17,7 +17,7 @@ const PhotoCard: React.FC<PhotoCardProps> = ({ location, imageUrl, description, 
   const [likes, setLikes] = useState<number>(initialLikes);
 
   const handleLike = () => {
-    setLikes(likes + 1);
+    setLikes(prevState => prevState + 1);
   };
 
   return (
