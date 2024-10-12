@@ -1,0 +1,12 @@
+.gallery {
+    display: grid;
+    gap: 90px;
+    padding: 10px;
+  }
+  
+  @media (min-width: 1280px) {
+    .gallery {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  

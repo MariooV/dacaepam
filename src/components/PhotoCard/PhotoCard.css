@@ -1,0 +1,56 @@
+.photo-card {
+    border: 2px solid #252525;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .photo-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .photo-card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .photo-card-header .icon {
+    color: #007bff;
+  }
+  
+  .photo-card p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #818181;
+  }
+
+  .img-footer {
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img-footer button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .img-footer .like-button {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center; 
+  }
+
+  .img-footer .like-button p {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 25px;
+    color: #000;
+  }
+  
